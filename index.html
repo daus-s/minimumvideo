@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Devices Example</title>
+    <style>
+        #json-output {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 20px;
+            white-space: pre-wrap; /* Preserve whitespace and formatting */
+            max-height: 200px;
+            overflow-y: auto; /* Add scrollbar if content overflows */
+        }
+    </style>
+</head>
+<body>
+    <h1>Camera Stream</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <pre id="json-output"></pre> 
+
+
+    <script src="app.js"></script>
+</body>
+</html>
